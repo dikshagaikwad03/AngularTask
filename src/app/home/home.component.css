@@ -1,0 +1,41 @@
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 98vh;
+    background-image: url('C:\Users\Diksha\Pictures\Grey-Floral-Pattern-for-Website-Background.jpg');
+    background-size: 100vh;
+    padding: 0 50px;
+  }
+  
+  .left-content {
+    flex: 2;
+    color: white;
+  }
+  
+  .right-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    display: flex;
+}
+  
+  .navigation-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navigation-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  .navigation-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navigation-links ul li a:hover {
+    color: lightgray;
+  }
+  
